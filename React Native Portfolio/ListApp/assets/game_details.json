@@ -1,0 +1,49 @@
+[
+    {
+    "id": 0,
+      "name": "The Legend of Zelda: Ocarina of Time",
+      "platform": "Nintendo 64",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+      "score": 99
+    },
+    {
+        "id": 1,
+      "name": "Tony Hawk's Pro Skater 2",
+      "platform": "PlayStation",
+      "image": "https://m.media-amazon.com/images/I/512CZ3M660L.jpg",
+      "score": 98
+    },
+    {"id": 2,
+      "name": "Grand Theft Auto IV",
+      "platform": "PlayStation 3",
+      "image": "https://m.media-amazon.com/images/M/MV5BYThjZGVhMzktZjRlNS00NTcwLTk4ZjktMWUzMmU3MTM4YThmXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg",
+      "score": 98
+    },
+    { "id": 3,"name": "SoulCalibur", "platform": "Dreamcast", "image": "https://m.media-amazon.com/images/I/61A4CS0TBML._AC_SX466_.jpg", "score": 98 },
+    { "id": 4,"name": "Super Mario Galaxy", "platform": "Wii", "image": "https://images7.alphacoders.com/320/320591.jpg", "score": 97 },
+    { "id": 5,"name": "Super Mario Galaxy 2", "platform": "Wii", "image": "https://resimdiyari.com/_data/i/upload/2012/10/14/20121014135013-d4af3896-me.jpg", "score": 97 },
+    {"id": 6,
+      "name": "Red Dead Redemption 2",
+      "platform": "Xbox One",
+      "image": "https://upload.wikimedia.org/wikipedia/tr/4/44/Red_Dead_Redemption_II.jpg",
+      "score": 97
+    },
+    {"id": 7,
+      "name": "Grand Theft Auto V",
+      "platform": "PlayStation 4",
+      "image": "https://upload.wikimedia.org/wikipedia/tr/b/be/Grand_Theft_Auto_V_oyununun_kapa%C4%9F%C4%B1.jpg",
+      "score": 97
+    },
+    {"id": 8,
+      "name": "Disco Elysium: The Final Cut",
+      "platform": "PC",
+      "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/632470/header.jpg?t=1655138744",
+      "score": 97
+    },
+    {"id": 9,
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "platform": "Switch",
+      "image": "https://www.zelda.com/breath-of-the-wild/assets/media/wallpapers/tablet-1.jpg",
+      "score": 97
+    }]
+  
