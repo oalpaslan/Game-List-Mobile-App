@@ -1,1 +1,0 @@
-# oalpaslan.github.io
