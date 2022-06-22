@@ -1,7 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet, FlatList } from "react-native";
 import GameDetail from "../components/GameDetail";
-import Images from "../components/Images";
 const ListScreen = () => {
   const games = require("../../assets/game_details.json");
 
