@@ -1,11 +1,12 @@
 import React from "react";
 import { View, Text, StyleSheet, FlatList } from "react-native";
 import GameDetail from "../components/GameDetail";
-const ListScreen = () => {
+const ListScreen = ({ route }) => {
   const games = require("../../assets/game_details.json");
-
+  const { username } = route.params;
   return (
     <View style={styles.viewStyle}>
+      <Text style={styles.usernameStyle}>{username}</Text>
       <FlatList
         data={games}
         keyExtractor={(game) => game.id}
@@ -26,6 +27,12 @@ const ListScreen = () => {
 };
 
 const styles = StyleSheet.create({
+  usernameStyle: {
+    color: "white",
+    fontSize: 20,
+    margin: 15,
+    alignSelf: "flex-end",
+  },
   viewStyle: {
     backgroundColor: "black",
   },
