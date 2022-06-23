@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet, FlatList } from "react-native";
 import GameDetail from "../components/GameDetail";
+
 const ListScreen = ({ route }) => {
   const games = require("../../assets/game_details.json");
   const { username } = route.params;
@@ -18,6 +19,7 @@ const ListScreen = ({ route }) => {
               platform={"Platform: " + item.platform}
               score={"Metascore: " + item.score}
               imageSource={item.image}
+              userRating
             />
           );
         }}

@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { View, Text, StyleSheet, Image, TouchableOpacity } from "react-native";
-
+import StarRating from "react-native-star-rating";
 const GameDetail = (props) => {
+  const [rating, setRating] = useState(3);
   return (
     <View style={props.style}>
       <Image style={styles.imgStyle} source={{ uri: props.imageSource }} />
@@ -10,11 +11,27 @@ const GameDetail = (props) => {
         <Text style={styles.platformStyle}>{props.platform}</Text>
         <Text style={styles.scoreStyle}>{props.score}</Text>
       </TouchableOpacity>
+      <StarRating
+        maxStars={5}
+        rating={rating}
+        fullStarColor={"yellow"}
+        emptyStar={"ios-star-outline"}
+        fullStar={"ios-star"}
+        halfStar={"ios-star-half"}
+        iconSet={"Ionicons"}
+        disabled={false}
+        selectedStar={setRating}
+        starSize={20}
+        containerStyle={styles.starStyle}
+      />
     </View>
   );
 };
 
 const styles = StyleSheet.create({
+  starStyle: {
+    marginBottom: 10,
+  },
   imgStyle: {
     width: "100%",
     height: 200,
@@ -30,7 +47,6 @@ const styles = StyleSheet.create({
   },
   scoreStyle: {
     color: "white",
-    marginBottom: 20,
     fontFamily: "Avenir",
   },
 });
