@@ -4,6 +4,16 @@ This is a Game List app where you can browse video games and read their details 
 ## Used technology
 I have created this app using <b> <ins> React Native</ins> </b>, so you can use it with either an iOS or an Android device!
 
+## Features
+- User login page
+- Welcome page, using user's name
+- Scrollable game list page:
+  - Game cover picture
+  - Game title
+  - Platform
+  - Metascore
+  - User input star rating
+
 ## How to run?
 1) You should download the folder, and open it inside a terminal. <br/>
 `cd 'Game List Mobile App/List App'`
