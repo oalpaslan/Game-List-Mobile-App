@@ -1,9 +1,9 @@
 {
-  "expoServerNgrokUrl": "https://km-pzi.anonymous.listapp.exp.direct",
-  "packagerNgrokUrl": "https://km-pzi.anonymous.listapp.exp.direct",
-  "ngrokPid": 2592,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
   "expoServerPort": 19000,
-  "devToolsPort": 19002,
+  "devToolsPort": 19003,
   "packagerPort": 19000,
   "packagerPid": null,
   "webpackServerPort": null
